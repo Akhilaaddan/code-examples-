@@ -1,0 +1,10 @@
+public class main{
+  public static void main(string args[]){
+    system.out.println("the odd numbers:");
+      for(int i = 1 ; i< = 100 ; i ++){
+      if(i%2 ! = 0){
+        system.out.print(i+"");
+      }
+    }
+  }
+}
