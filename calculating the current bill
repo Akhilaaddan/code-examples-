@@ -1,0 +1,18 @@
+public class main{
+public static void main(string args[]){
+  int units = 123;
+int bill =0;
+if(units>100){
+if(units>=200){
+if(units>300){
+bill = units*8;
+}
+else
+  bill = units*6;
+}
+else 
+bill = units*5;
+}
+system.out.println("total bill:" +bill);
+}
+}
