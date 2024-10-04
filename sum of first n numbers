@@ -1,0 +1,10 @@
+public class sum of num {
+public static void main(string args[]){
+int sum =0;
+int n =10;
+for(int i =1 ;i<n;i++){
+sum = sum+i;
+}
+system.out.println("the sum of "+n+"numbers are "+ sum );
+}
+}
