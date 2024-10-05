@@ -1,0 +1,29 @@
+public class numbers to word{
+public void pw(int n, string ch){
+string one []={"","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sisteen","seventeen","eighteen","nineteen"};
+if(n>19){
+system.out.print(ten[n/10]+""+one[n%10]);
+}
+else{
+system.out.print(one[n]);
+}
+if(n>0){
+system.out.print(ch);
+}
+public static void main(string args[]){
+int n =28;
+system.out.print(n);
+if(n<=0){
+system.out.println("enter numbers greater than 0");
+}
+else{
+number to words a = new number to words();
+a.pw((n/1000000000),"hundred");
+a.pw((n/10000000)%100,"crore");
+a.pw(((n/100000)%100)"lakh");
+a.pw(((n/1000)%100)"thousand");
+a.pw(((n/100)%10)"hundred");
+a.pw((n/100),"");
+}
+}
+}
