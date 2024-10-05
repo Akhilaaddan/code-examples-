@@ -1,6 +1,4 @@
 logic:
-
-
 if the bill is above 100 
 then you need to calculate bill *5
 if the bill is above 200 
